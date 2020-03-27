@@ -12,7 +12,7 @@ We used 'bert-large-uncased' pre-trained model for this task. you can download t
  
 MLP.py - has Multi-Layer Perceptron Algorithm Implemented for Intent-classification of queries across small dataset which gives in-scope accuracies and out-of-scope recall across the given dataset. 
 
-Data_Preprocess.py, Model_Classification.py and Find_Accuracies.py- are implemented to enable integration of all algorithms. 
+Data_Preprocess.py, Model_Classification.py, Tokenization.py and Find_Accuracies.py- are implemented to enable integration of all algorithms. 
 In this phase, we only integrated MLP algorithms with these files. All other Algorithm files run independently. 
 However, in the next phase we would integrate all algorithms. 
 
