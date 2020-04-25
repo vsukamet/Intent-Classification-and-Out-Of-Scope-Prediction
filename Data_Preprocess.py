@@ -44,7 +44,7 @@ def get_in_scope_data(data):
     train_df,val_df,test_df,inscope_train,inscope_val,inscope_test = get_split_data(data)
     return inscope_train,inscope_val,inscope_test
 
-def get_out_of_scope(data):
+def get_oos_binary_preprocess(data):
     train_df,val_df,test_df,inscope_train,inscope_val,inscope_test = get_split_data(data)
 
 
@@ -63,7 +63,7 @@ def get_out_of_scope(data):
 
 if __name__ == '__main__':
     # _, val_df, _ = get_split_data('full')
-    get_out_of_scope('full')
+    get_oos_binary_preprocess('full')
 
 
 
